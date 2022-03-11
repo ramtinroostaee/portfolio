@@ -1,0 +1,39 @@
+1- for redux install the following:
+npm install redux redux-thunk next-redux-wrapper react-redux
+
+2- for matertial dsign icons:
+npm install @mdi/react @mdi/js
+
+3- scss next support
+npm install sass
+
+4- react toast
+npm install react-hot-toast
+
+5- tailwind (read documents first)
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+6- headless (Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.)
+npm install @headlessui/react @heroicons/react
+
+7- react spinners
+npm install --save react-spinners
+
+8- library for animations
+npm i react-use
+
+9- create jsconfig.json and add th following:
+{ "compilerOptions": { "baseUrl": "src" }, "include": ["src"] }
+
+10- moment
+npm install jalali-moment
+
+11- mapbox stuff
+npm install --save react-map-gl mapbox-gl
+npm install react-map-gl-geocoder
+npm install worker-loader --save-dev
+npm install deck.gl --save
+
+12- git pages
+npm install gh-pages
