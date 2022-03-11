@@ -14,6 +14,7 @@ import {
 
 import satplat from 'assets/resumeLogos/satplat.png';
 import logo from 'assets/resumeLogos/logo-2.png';
+import avatar from 'assets/avatar-2.svg';
 
 import Icon from '@mdi/react';
 import { mdiLibrary } from '@mdi/js';
@@ -26,7 +27,9 @@ const Resume = () => {
           <>
             <div className='w-[300px] custom-clip-2 h-[240px] bg-[#282b30] z-10 flex-shrink-0 relative'></div>
             <div className='absolute bg-[#282b30] left-[299px] top-[-1px] w-60 h-[240px] custom-clip-3 z-10'></div>
-            <div className='bg-white absolute top-[40px] left-[75px] w-[150px] h-[150px] z-10 rounded-[50%]'></div>
+            <div className='bg-white absolute top-[40px] left-[75px] w-[150px] h-[150px] z-10 rounded-[50%]'>
+              <img src={avatar} alt='avatar' className='rounded-[50%] p-0.5' />
+            </div>
           </>
 
           <div className='absolute w-1/2 h-full bg-[#2e3238] left-0'></div>
