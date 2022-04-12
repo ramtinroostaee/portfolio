@@ -49,7 +49,7 @@ const Resume = () => {
               </li>
               <li className='flex justify-start px-5 items-center'>
                 <LocationMarkerIcon className='w-6 h-6 mx-6 my-1' />
-                <span className='text-base'>KARAJ</span>
+                <span className='text-base'>Tehran</span>
               </li>
               <li className='flex justify-start px-5 items-center'>
                 <GlobeAltIcon className='w-6 h-6 mx-6 my-1' />
@@ -191,7 +191,7 @@ const Resume = () => {
         <div className='absolute top-[340px] left-[400px] z-10 text-gray-900'>
           <h1 className='text-3xl mb-3 font-lato-heavyItalic'>ABOUT ME</h1>
           <p className='text-sm text-gray-600 mb-6 w-[650px]'>
-            I'm a Forth year Computer Science student in
+            I'm a Fourth year Computer Science student in
             <span className='font-lato-bold text-base'> Amirkabir</span>{' '}
             University of Technology. Intrested in UI/UX Design and it's
             combination with Programming. Skilled in react designs and{' '}
