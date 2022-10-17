@@ -98,17 +98,17 @@ const Resume = () => {
                 </span>
               </li>
               <li className='flex flex-col my-2'>
-                <span>MaterialUI, HeadlessUI</span>
+                <span>MaterialUI</span>
                 <span className='w-full bg-[#d48400] h-1 relative '>
                   <span className='bg-white w-8/12 h-1 absolute left-0'></span>
                 </span>
               </li>
-              <li className='flex flex-col my-2'>
-                <span>ChartJS</span>
-                <span className='w-full bg-[#d48400] h-1 relative '>
-                  <span className='bg-white w-9/12 h-1 absolute left-0'></span>
-                </span>
-              </li>
+              {/*<li className='flex flex-col my-2'>*/}
+              {/*  <span>ChartJS</span>*/}
+              {/*  <span className='w-full bg-[#d48400] h-1 relative '>*/}
+              {/*    <span className='bg-white w-9/12 h-1 absolute left-0'></span>*/}
+              {/*  </span>*/}
+              {/*</li>*/}
             </ul>
 
             <Header>LANGUAGE</Header>
@@ -176,7 +176,7 @@ const Resume = () => {
               REACT WEB DEVELOPER
             </div>
             <p className='font-lato-regular text-sm text-gray-600 mt-8 w-[450px]'>
-              Attentive and creative developer with 2 years of experience
+              Attentive and creative developer with 3 years of experience
               building reusable components and interface features with React JS
               framework. Self-motivated and self-managing.
             </p>
@@ -191,7 +191,7 @@ const Resume = () => {
         <div className='absolute top-[340px] left-[400px] z-10 text-gray-900'>
           <h1 className='text-3xl mb-3 font-lato-heavyItalic'>ABOUT ME</h1>
           <p className='text-sm text-gray-600 mb-6 w-[650px]'>
-            I'm a Fourth year Computer Science student in
+            I'm a Fifth year Computer Science student in
             <span className='font-lato-bold text-base'> Amirkabir</span>{' '}
             University of Technology. Intrested in UI/UX Design and it's
             combination with Programming. Skilled in react designs and{' '}
@@ -265,7 +265,7 @@ const Resume = () => {
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>ReactMapGL</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>DeckGl</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>d3-ease</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               jalali-moment
             </div>
@@ -274,7 +274,12 @@ const Resume = () => {
               react-datepicker2
             </div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>formik</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>yup</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>axios</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-router</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>redux-toolkit</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-table</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>lodash</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               apollographql
             </div>
