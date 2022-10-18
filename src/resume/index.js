@@ -17,18 +17,18 @@ import logo from 'assets/resumeLogos/logo-2.png';
 import avatar from 'assets/avatar-2.svg';
 
 import Icon from '@mdi/react';
-import { mdiLibrary } from '@mdi/js';
+import {mdiLibrary} from '@mdi/js';
 
 const Resume = () => {
   return (
     <div className='resume-bg w-[1300px] m-auto flex justify-center'>
-      <div className='relative font-lato-meduim flex h-[1450px]'>
+      <div className='relative font-lato-meduim flex h-[1600px]'>
         <div className='w-[300px] flex flex-col bg-[#23282e] text-white relative m-6'>
           <>
             <div className='w-[300px] custom-clip-2 h-[240px] bg-[#282b30] z-10 flex-shrink-0 relative'></div>
             <div className='absolute bg-[#282b30] left-[299px] top-[-1px] w-60 h-[240px] custom-clip-3 z-10'></div>
             <div className='bg-white absolute top-[40px] left-[75px] w-[150px] h-[150px] z-10 rounded-[50%]'>
-              <img src={avatar} alt='avatar' className='rounded-[50%] p-0.5' />
+              <img src={avatar} alt='avatar' className='rounded-[50%] p-0.5'/>
             </div>
           </>
 
@@ -40,19 +40,19 @@ const Resume = () => {
 
             <ul className='flex flex-col text-sm my-8'>
               <li className='flex justify-start px-5 items-center'>
-                <MailIcon className='w-6 h-6 mx-6 my-1' />
+                <MailIcon className='w-6 h-6 mx-6 my-1'/>
                 <span className='text-base'>ramtinroostaee@gmail.com</span>
               </li>
               <li className='flex justify-start px-5 items-center'>
-                <PhoneIcon className='w-6 h-6 mx-6 my-1' />
+                <PhoneIcon className='w-6 h-6 mx-6 my-1'/>
                 <span className='text-base'>+98 921 632 0375</span>
               </li>
               <li className='flex justify-start px-5 items-center'>
-                <LocationMarkerIcon className='w-6 h-6 mx-6 my-1' />
+                <LocationMarkerIcon className='w-6 h-6 mx-6 my-1'/>
                 <span className='text-base'>Tehran</span>
               </li>
               <li className='flex justify-start px-5 items-center'>
-                <GlobeAltIcon className='w-6 h-6 mx-6 my-1' />
+                <GlobeAltIcon className='w-6 h-6 mx-6 my-1'/>
                 <a
                   href='https://ramtinroostaee.github.io/portfolio/'
                   target='_blank'
@@ -126,7 +126,7 @@ const Resume = () => {
             <ul className='my-5 px-6 flex flex-col'>
               <li className='flex items-center my-2'>
                 <span className='align-middle h-10'>
-                  <img alt='satplat' width='40px' height='40px' src={satplat} />
+                  <img alt='satplat' width='40px' height='40px' src={satplat}/>
                 </span>
                 <a
                   href='https://dashboard.satplat.com/'
@@ -139,7 +139,7 @@ const Resume = () => {
               </li>
               <li className='flex items-center my-2'>
                 <span className='ml-[4px]'>
-                  <img alt='logo' width='34px' height='34px' src={logo} />
+                  <img alt='logo' width='34px' height='34px' src={logo}/>
                 </span>
                 <a
                   href='http://uldms.abopa.ir/'
@@ -153,7 +153,7 @@ const Resume = () => {
               <li className='flex items-center my-1'>
                 <span className='ml-3'>
                   {/* <Image alt='aysan' width='30px' height='30px' src={aysan} /> */}
-                  <CursorClickIcon className='w-6' />
+                  <CursorClickIcon className='w-6'/>
                 </span>
                 <a
                   href='https://aysan-eshop.ir/'
@@ -194,45 +194,61 @@ const Resume = () => {
             I'm a Fifth year Computer Science student in
             <span className='font-lato-bold text-base'> Amirkabir</span>{' '}
             University of Technology. Intrested in UI/UX Design and it's
-            combination with Programming. Skilled in react designs and{' '}
-            <span className='font-lato-bold text-base'>patterns </span>
-            (atomic, hooks, hoc). Looking forward to imcoming{' '}
+            combination with Programming. Skilled in react principles and
+            <span className='font-lato-bold text-base'> design patterns </span>
+            (atomic, hooks, hoc). Looking forward to incoming{' '}
             <span className='font-lato-bold text-base'>challenges</span> (This
-            resume is purly css). Also spend two years of highschool studying
+            resume is purely css). Also spent two years of high school studying
             Astronomy Olympiad.
           </p>
-          <h2 className='flex items-center my-12'>
-            <AcademicCapIcon className='w-12 mr-6 -ml-5' /> EDUCATION
+          <h2 className='flex items-center mt-9 mb-11'>
+            <AcademicCapIcon className='w-12 mr-6 -ml-5'/> EDUCATION
           </h2>
 
           <ul className='border-l-gray-200 border-l-4'>
-            <li className='pb-28 pt-0 text-center relative -mt-2'>
+            <li className='pb-[5.5rem] pt-0 text-center relative -mt-2'>
               <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
               <span className='absolute -top-2 left-24'>1397</span>
               <span className='absolute -top-2 left-80'>
                 Admitted to Amirkabir University
               </span>
-              <span className='absolute top-4 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
-                Ranked 2100 in konkur
+              <span className='absolute top-5 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
+                Computer Science, currently term 9
+              </span>
+              <span className='absolute top-10 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
+                Ranked 300 in konkur
               </span>
             </li>
-            <li className='pb-24 pt-0 text-center relative'>
+            <li className='pb-20 pt-0 text-center relative'>
               <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
               <span className='absolute -top-2 left-24'>1396</span>
               <span className='absolute -top-2 left-80'>
                 Bronze Medal of Astronomy Olympiad
               </span>
               <span className='absolute top-4 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
-                Ranked in 40
+                Ranked in national tests
               </span>
             </li>
           </ul>
 
-          <h2 className='flex items-center my-10 -ml-5'>
-            <BriefcaseIcon className='w-12 mr-6' /> EXPERIENCE
+          <h2 className='flex items-center mt-9 mb-10 -ml-5'>
+            <BriefcaseIcon className='w-12 mr-6'/> EXPERIENCE
           </h2>
 
           <ul className='border-l-gray-200 border-l-4'>
+            <li className='pb-32 pt-0 text-center relative'>
+              <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
+              <span className='absolute -top-2 left-24'>1401</span>
+              <span className='absolute -top-2 left-80'>
+                React developer iBaar
+              </span>
+              <span className='absolute top-4 left-80 text-gray-400 text-left text-sm font-lato-mediumItalic'>
+                Technologies:
+                Redux Toolkit, Tailwind, React Router, Git Flow, Material, persian tools
+                <br/>
+                Developed iBaar Dashboard, Bourse Admin panel, Barpardakht panel (3 projects in 4 months)
+              </span>
+            </li>
             <li className='pb-28 pt-0 text-center relative'>
               <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
               <span className='absolute -top-2 left-24'>1399 - 1400</span>
@@ -240,36 +256,48 @@ const Resume = () => {
                 React front-end developer Satplat
               </span>
               <span className='absolute top-4 left-80 text-gray-400 text-left text-sm font-lato-mediumItalic'>
+                Technologies:
+                Redux, Router, MUI, Mapbox, PWA
+                <br/>
                 Developed their Dashboard, Admin panel and some outside project
               </span>
             </li>
 
-            <li className='pb-24 pt-0 text-center relative -mt-2'>
+            <li className='pb-20 pt-0 text-center relative -mt-2'>
               <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
               <span className='absolute -top-2 left-24'>1398</span>{' '}
               <span className='absolute -top-2 left-80'>
                 Web developer for aysan-eshop
               </span>
-              <span className='absolute top-4 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
+              <span className='absolute top-4 left-80 text-gray-400 text-sm text-left font-lato-mediumItalic'>
+                Technologies:
+                php, html, css, wordpress plugins
+                <br/>
                 E-commerce wordpress
               </span>
             </li>
           </ul>
 
           <h2 className='flex items-center mt-12 mb-6 -ml-5'>
-            <Icon className='mr-6' path={mdiLibrary} title='Library' size={2} />{' '}
+            <Icon className='mr-6' path={mdiLibrary} title='Library' size={2}/>{' '}
             REACT PACKAGES
           </h2>
 
           <div className='flex items-center w-[600px] flex-wrap'>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>ReactMapGL</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>mapbox geocoder</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>DeckGl</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>d3-ease</div>
-            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>*/}
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               jalali-moment
             </div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>node-sass</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-loader-spinner</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-i18next</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>date-fns</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>chart.js</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>persian-tools</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               react-datepicker2
             </div>
@@ -279,9 +307,16 @@ const Resume = () => {
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-router</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>redux-toolkit</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-table</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-toastify</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>lodash</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
-              apollographql
+              Apollographql
+            </div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>
+              Material-ui pickers
+            </div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>
+              MUI lab
             </div>
           </div>
         </div>
