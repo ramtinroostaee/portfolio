@@ -13,6 +13,8 @@ import {
 } from '@heroicons/react/solid';
 
 import satplat from 'assets/resumeLogos/satplat.png';
+import waybills from 'assets/resumeLogos/Bar_Pardakht.png';
+import ibaar from 'assets/resumeLogos/ibaar.ico';
 import logo from 'assets/resumeLogos/logo-2.png';
 import avatar from 'assets/avatar-2.svg';
 
@@ -80,7 +82,7 @@ const Resume = () => {
                 </span>
               </li>
               <li className='flex flex-col my-2'>
-                <span>Redux, Thunk</span>
+                <span>Redux, Toolkit, Thunk</span>
                 <span className='w-full bg-[#d48400] h-1 relative '>
                   <span className='bg-white w-10/12 h-1 absolute left-0'></span>
                 </span>
@@ -124,6 +126,32 @@ const Resume = () => {
 
             <Header>Project Links</Header>
             <ul className='my-5 px-6 flex flex-col'>
+              <li className='flex items-center my-2'>
+                <span className='align-middle'>
+                  <img alt='waybills' width='60px' src={waybills}/>
+                </span>
+                <a
+                  href='https://staging.barpardakht.com/'
+                  className='my-2 text-[#e3e3e3] pl-2'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  barpardakht.com
+                </a>
+              </li>
+              <li className='flex items-center my-2'>
+                <span className='align-middle h-10'>
+                  <img alt='ibaar' width='40px' height='40px' src={ibaar}/>
+                </span>
+                <a
+                  href='https://front.ibaar.ir/'
+                  className='my-2 text-[#e3e3e3] ml-5'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  front.ibaar.ir
+                </a>
+              </li>
               <li className='flex items-center my-2'>
                 <span className='align-middle h-10'>
                   <img alt='satplat' width='40px' height='40px' src={satplat}/>
@@ -246,7 +274,7 @@ const Resume = () => {
                 Technologies:
                 Redux Toolkit, Tailwind, React Router, Git Flow, Material, persian tools
                 <br/>
-                Developed iBaar Dashboard, Bourse Admin panel, Barpardakht panel (3 projects in 4 months)
+                Developed iBaar Dashboard, Bourse Admin panel, Barpardakht panel {/*(3 projects in 4 months)*/}
               </span>
             </li>
             <li className='pb-28 pt-0 text-center relative'>
