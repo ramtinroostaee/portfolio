@@ -13,9 +13,7 @@ import {
 } from '@heroicons/react/solid';
 
 import satplat from 'assets/resumeLogos/satplat.png';
-import waybills from 'assets/resumeLogos/Bar_Pardakht.png';
-import ibaar from 'assets/resumeLogos/ibaar.ico';
-import logo from 'assets/resumeLogos/logo-2.png';
+import taaghche from 'assets/resumeLogos/taaghche.webp';
 import avatar from 'assets/avatar-2.svg';
 
 import Icon from '@mdi/react';
@@ -24,7 +22,7 @@ import {mdiLibrary} from '@mdi/js';
 const Resume = () => {
   return (
     <div className='resume-bg w-[1300px] m-auto flex justify-center'>
-      <div className='relative font-lato-meduim flex h-[1600px]'>
+      <div className='relative font-lato-meduim flex h-[1650px]'>
         <div className='w-[300px] flex flex-col bg-[#23282e] text-white relative m-6'>
           <>
             <div className='w-[300px] custom-clip-2 h-[240px] bg-[#282b30] z-10 flex-shrink-0 relative'></div>
@@ -76,6 +74,12 @@ const Resume = () => {
                 </span>
               </li>
               <li className='flex flex-col my-2'>
+                <span>Technical SEO</span>
+                <span className='w-full bg-[#d48400] h-1 relative '>
+                  <span className='bg-white w-10/12 h-1 absolute left-0'></span>
+                </span>
+              </li>
+              <li className='flex flex-col my-2'>
                 <span>Git</span>
                 <span className='w-full bg-[#d48400] h-1 relative '>
                   <span className='bg-white w-7/12 h-1 absolute left-0'></span>
@@ -88,29 +92,11 @@ const Resume = () => {
                 </span>
               </li>
               <li className='flex flex-col my-2'>
-                <span>Tailwind</span>
-                <span className='w-full bg-[#d48400] h-1 relative '>
-                  <span className='bg-white w-9/12 h-1 absolute left-0'></span>
-                </span>
-              </li>
-              <li className='flex flex-col my-2'>
-                <span>Mapbox</span>
-                <span className='w-full bg-[#d48400] h-1 relative '>
-                  <span className='bg-white w-10/12 h-1 absolute left-0'></span>
-                </span>
-              </li>
-              <li className='flex flex-col my-2'>
                 <span>MaterialUI</span>
                 <span className='w-full bg-[#d48400] h-1 relative '>
                   <span className='bg-white w-8/12 h-1 absolute left-0'></span>
                 </span>
               </li>
-              {/*<li className='flex flex-col my-2'>*/}
-              {/*  <span>ChartJS</span>*/}
-              {/*  <span className='w-full bg-[#d48400] h-1 relative '>*/}
-              {/*    <span className='bg-white w-9/12 h-1 absolute left-0'></span>*/}
-              {/*  </span>*/}
-              {/*</li>*/}
             </ul>
 
             <Header>LANGUAGE</Header>
@@ -127,38 +113,12 @@ const Resume = () => {
             <Header>Project Links</Header>
             <ul className='my-5 px-6 flex flex-col'>
               <li className='flex items-center my-2'>
-                <span className='align-middle'>
-                  <img alt='waybills' width='60px' src={waybills}/>
-                </span>
-                <a
-                  href='https://staging.barpardakht.com/'
-                  className='my-2 text-[#e3e3e3] pl-2'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  barpardakht.com
-                </a>
-              </li>
-              <li className='flex items-center my-2'>
-                <span className='align-middle h-10'>
-                  <img alt='ibaar' width='40px' height='40px' src={ibaar}/>
-                </span>
-                <a
-                  href='https://front.ibaar.ir/'
-                  className='my-2 text-[#e3e3e3] ml-5'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  front.ibaar.ir
-                </a>
-              </li>
-              <li className='flex items-center my-2'>
-                <span className='align-middle h-10'>
+                <span className='align-middle h-10 ml-2'>
                   <img alt='satplat' width='40px' height='40px' src={satplat}/>
                 </span>
                 <a
                   href='https://dashboard.satplat.com/'
-                  className='my-2 text-[#e3e3e3] ml-5'
+                  className='my-2 text-[#e3e3e3] ml-8'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -166,30 +126,16 @@ const Resume = () => {
                 </a>
               </li>
               <li className='flex items-center my-2'>
-                <span className='ml-[4px]'>
-                  <img alt='logo' width='34px' height='34px' src={logo}/>
+                <span className='align-middle h-10'>
+                  <img alt='taaghche' className='mt-2' width='60px' src={taaghche}/>
                 </span>
                 <a
-                  href='http://uldms.abopa.ir/'
+                  href='https://taaghche.com/'
                   className='my-2 text-[#e3e3e3] ml-5'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  uldms.abopa.ir
-                </a>
-              </li>
-              <li className='flex items-center my-1'>
-                <span className='ml-3'>
-                  {/* <Image alt='aysan' width='30px' height='30px' src={aysan} /> */}
-                  <CursorClickIcon className='w-6'/>
-                </span>
-                <a
-                  href='https://aysan-eshop.ir/'
-                  className='my-2 text-[#e3e3e3] ml-5'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  aysan-eshop.ir
+                  taaghche.com
                 </a>
               </li>
             </ul>
@@ -204,15 +150,10 @@ const Resume = () => {
               REACT WEB DEVELOPER
             </div>
             <p className='font-lato-regular text-sm text-gray-600 mt-8 w-[450px]'>
-              Attentive and creative developer with 3 years of experience
-              building reusable components and interface features with React JS
+              Attentive and creative developer with 4 years of experience
+              building reusable components and interface features with React, Next JS
               framework. Self-motivated and self-managing.
             </p>
-            {/* <p className='font-lato-regular text-sm text-gray-600 mt-8 w-[490px]'>
-              front-end web developer, skilled in react library and it's third
-              party packages. Self-motivated and self-managing. University
-              student currntly (Term 8).
-            </p> */}
           </div>
         </div>
 
@@ -241,7 +182,7 @@ const Resume = () => {
                 Admitted to Amirkabir University
               </span>
               <span className='absolute top-5 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
-                Computer Science, currently term 9
+                Computer Science, currently term 10
               </span>
               <span className='absolute top-10 left-80 text-gray-400 text-sm font-lato-mediumItalic'>
                 Ranked 300 in konkur
@@ -264,6 +205,18 @@ const Resume = () => {
           </h2>
 
           <ul className='border-l-gray-200 border-l-4'>
+            <li className='pb-32 pt-0 text-center relative'>
+              <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
+              <span className='absolute -top-2 left-24'>1401 - 1402</span>
+              <span className='absolute -top-2 left-80'>
+                Next Js developer Taaghche
+              </span>
+              <span className='absolute top-4 left-80 text-gray-400 text-left text-sm font-lato-mediumItalic'>
+                mainly worked on technical seo <br /> and user experience (help user find books).
+                <br/>
+                this project had no packages and all code were written by taaghche developers.
+              </span>
+            </li>
             <li className='pb-32 pt-0 text-center relative'>
               <span className='w-3 h-3 rounded-[50%] bg-slate-300 absolute -left-2 top-0'></span>
               <span className='absolute -top-2 left-24'>1401</span>
@@ -312,40 +265,40 @@ const Resume = () => {
           </h2>
 
           <div className='flex items-center w-[600px] flex-wrap'>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>ReactMapGL</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>mapbox geocoder</div>
+            <div className='bg-[#007bff25] p-1 rounded-md m-2'>MapGL</div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>mapbox geocoder</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>DeckGl</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>d3-ease</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>turf</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               jalali-moment
             </div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>node-sass</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-loader-spinner</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-i18next</div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>react-loader-spinner</div>*/}
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>react-i18next</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>date-fns</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>chart.js</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>persian-tools</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>
-              react-datepicker2
-            </div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>*/}
+            {/*  react-datepicker2*/}
+            {/*</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>formik</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>yup</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>axios</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-router</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>redux-toolkit</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-table</div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>react-toastify</div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>react-toastify</div>*/}
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>lodash</div>
             <div className='bg-[#007bff25] p-1 rounded-md m-2'>
               Apollographql
             </div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>
-              Material-ui pickers
-            </div>
-            <div className='bg-[#007bff25] p-1 rounded-md m-2'>
-              MUI lab
-            </div>
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>*/}
+            {/*  Material-ui pickers*/}
+            {/*</div>*/}
+            {/*<div className='bg-[#007bff25] p-1 rounded-md m-2'>*/}
+            {/*  MUI lab*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
